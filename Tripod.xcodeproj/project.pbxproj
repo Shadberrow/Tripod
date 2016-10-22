@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B332E81DBBF65A004739C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B332E71DBBF65A004739C6 /* AppDelegate.swift */; };
+		57B332EA1DBBF65A004739C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B332E91DBBF65A004739C6 /* ViewController.swift */; };
+		57B332ED1DBBF65A004739C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B332EB1DBBF65A004739C6 /* Main.storyboard */; };
+		57B332F01DBBF65A004739C6 /* Tripod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57B332EE1DBBF65A004739C6 /* Tripod.xcdatamodeld */; };
+		57B332F21DBBF65A004739C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B332F11DBBF65A004739C6 /* Assets.xcassets */; };
+		57B332F51DBBF65A004739C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B332F31DBBF65A004739C6 /* LaunchScreen.storyboard */; };
+		57B333001DBBF65A004739C6 /* TripodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B332FF1DBBF65A004739C6 /* TripodTests.swift */; };
+		57B3330B1DBBF65A004739C6 /* TripodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3330A1DBBF65A004739C6 /* TripodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B332FC1DBBF65A004739C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B332DC1DBBF65A004739C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B332E31DBBF65A004739C6;
+			remoteInfo = Tripod;
+		};
+		57B333071DBBF65A004739C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B332DC1DBBF65A004739C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B332E31DBBF65A004739C6;
+			remoteInfo = Tripod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57B332E41DBBF65A004739C6 /* Tripod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B332E71DBBF65A004739C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57B332E91DBBF65A004739C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57B332EC1DBBF65A004739C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B332EF1DBBF65A004739C6 /* Tripod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tripod.xcdatamodel; sourceTree = "<group>"; };
+		57B332F11DBBF65A004739C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B332F41DBBF65A004739C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B332F61DBBF65A004739C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B332FB1DBBF65A004739C6 /* TripodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B332FF1DBBF65A004739C6 /* TripodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripodTests.swift; sourceTree = "<group>"; };
+		57B333011DBBF65A004739C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B333061DBBF65A004739C6 /* TripodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B3330A1DBBF65A004739C6 /* TripodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripodUITests.swift; sourceTree = "<group>"; };
+		57B3330C1DBBF65A004739C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B332E11DBBF65A004739C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B332F81DBBF65A004739C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B333031DBBF65A004739C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B332DB1DBBF65A004739C6 = {
+			isa = PBXGroup;
+			children = (
+				57B332E61DBBF65A004739C6 /* Tripod */,
+				57B332FE1DBBF65A004739C6 /* TripodTests */,
+				57B333091DBBF65A004739C6 /* TripodUITests */,
+				57B332E51DBBF65A004739C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B332E51DBBF65A004739C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B332E41DBBF65A004739C6 /* Tripod.app */,
+				57B332FB1DBBF65A004739C6 /* TripodTests.xctest */,
+				57B333061DBBF65A004739C6 /* TripodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B332E61DBBF65A004739C6 /* Tripod */ = {
+			isa = PBXGroup;
+			children = (
+				57B332E71DBBF65A004739C6 /* AppDelegate.swift */,
+				57B332E91DBBF65A004739C6 /* ViewController.swift */,
+				57B332EB1DBBF65A004739C6 /* Main.storyboard */,
+				57B332F11DBBF65A004739C6 /* Assets.xcassets */,
+				57B332F31DBBF65A004739C6 /* LaunchScreen.storyboard */,
+				57B332F61DBBF65A004739C6 /* Info.plist */,
+				57B332EE1DBBF65A004739C6 /* Tripod.xcdatamodeld */,
+			);
+			path = Tripod;
+			sourceTree = "<group>";
+		};
+		57B332FE1DBBF65A004739C6 /* TripodTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B332FF1DBBF65A004739C6 /* TripodTests.swift */,
+				57B333011DBBF65A004739C6 /* Info.plist */,
+			);
+			path = TripodTests;
+			sourceTree = "<group>";
+		};
+		57B333091DBBF65A004739C6 /* TripodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57B3330A1DBBF65A004739C6 /* TripodUITests.swift */,
+				57B3330C1DBBF65A004739C6 /* Info.plist */,
+			);
+			path = TripodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B332E31DBBF65A004739C6 /* Tripod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B3330F1DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "Tripod" */;
+			buildPhases = (
+				57B332E01DBBF65A004739C6 /* Sources */,
+				57B332E11DBBF65A004739C6 /* Frameworks */,
+				57B332E21DBBF65A004739C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripod;
+			productName = Tripod;
+			productReference = 57B332E41DBBF65A004739C6 /* Tripod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B332FA1DBBF65A004739C6 /* TripodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B333121DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "TripodTests" */;
+			buildPhases = (
+				57B332F71DBBF65A004739C6 /* Sources */,
+				57B332F81DBBF65A004739C6 /* Frameworks */,
+				57B332F91DBBF65A004739C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B332FD1DBBF65A004739C6 /* PBXTargetDependency */,
+			);
+			name = TripodTests;
+			productName = TripodTests;
+			productReference = 57B332FB1DBBF65A004739C6 /* TripodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57B333051DBBF65A004739C6 /* TripodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B333151DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "TripodUITests" */;
+			buildPhases = (
+				57B333021DBBF65A004739C6 /* Sources */,
+				57B333031DBBF65A004739C6 /* Frameworks */,
+				57B333041DBBF65A004739C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B333081DBBF65A004739C6 /* PBXTargetDependency */,
+			);
+			name = TripodUITests;
+			productName = TripodUITests;
+			productReference = 57B333061DBBF65A004739C6 /* TripodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B332DC1DBBF65A004739C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yevhenii Veretennikov";
+				TargetAttributes = {
+					57B332E31DBBF65A004739C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G7Y533BQE;
+						ProvisioningStyle = Automatic;
+					};
+					57B332FA1DBBF65A004739C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G7Y533BQE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57B332E31DBBF65A004739C6;
+					};
+					57B333051DBBF65A004739C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4G7Y533BQE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57B332E31DBBF65A004739C6;
+					};
+				};
+			};
+			buildConfigurationList = 57B332DF1DBBF65A004739C6 /* Build configuration list for PBXProject "Tripod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B332DB1DBBF65A004739C6;
+			productRefGroup = 57B332E51DBBF65A004739C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B332E31DBBF65A004739C6 /* Tripod */,
+				57B332FA1DBBF65A004739C6 /* TripodTests */,
+				57B333051DBBF65A004739C6 /* TripodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B332E21DBBF65A004739C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B332F51DBBF65A004739C6 /* LaunchScreen.storyboard in Resources */,
+				57B332F21DBBF65A004739C6 /* Assets.xcassets in Resources */,
+				57B332ED1DBBF65A004739C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B332F91DBBF65A004739C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B333041DBBF65A004739C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B332E01DBBF65A004739C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B332F01DBBF65A004739C6 /* Tripod.xcdatamodeld in Sources */,
+				57B332EA1DBBF65A004739C6 /* ViewController.swift in Sources */,
+				57B332E81DBBF65A004739C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B332F71DBBF65A004739C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B333001DBBF65A004739C6 /* TripodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B333021DBBF65A004739C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B3330B1DBBF65A004739C6 /* TripodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B332FD1DBBF65A004739C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B332E31DBBF65A004739C6 /* Tripod */;
+			targetProxy = 57B332FC1DBBF65A004739C6 /* PBXContainerItemProxy */;
+		};
+		57B333081DBBF65A004739C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B332E31DBBF65A004739C6 /* Tripod */;
+			targetProxy = 57B333071DBBF65A004739C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57B332EB1DBBF65A004739C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B332EC1DBBF65A004739C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B332F31DBBF65A004739C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B332F41DBBF65A004739C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B3330D1DBBF65A004739C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B3330E1DBBF65A004739C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B333101DBBF65A004739C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = Tripod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.Tripod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57B333111DBBF65A004739C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = Tripod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.Tripod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		57B333131DBBF65A004739C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = TripodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.TripodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripod.app/Tripod";
+			};
+			name = Debug;
+		};
+		57B333141DBBF65A004739C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = TripodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.TripodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripod.app/Tripod";
+			};
+			name = Release;
+		};
+		57B333161DBBF65A004739C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = TripodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.TripodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tripod;
+			};
+			name = Debug;
+		};
+		57B333171DBBF65A004739C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4G7Y533BQE;
+				INFOPLIST_FILE = TripodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shadberrow.TripodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tripod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B332DF1DBBF65A004739C6 /* Build configuration list for PBXProject "Tripod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B3330D1DBBF65A004739C6 /* Debug */,
+				57B3330E1DBBF65A004739C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B3330F1DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "Tripod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B333101DBBF65A004739C6 /* Debug */,
+				57B333111DBBF65A004739C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57B333121DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "TripodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B333131DBBF65A004739C6 /* Debug */,
+				57B333141DBBF65A004739C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57B333151DBBF65A004739C6 /* Build configuration list for PBXNativeTarget "TripodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B333161DBBF65A004739C6 /* Debug */,
+				57B333171DBBF65A004739C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57B332EE1DBBF65A004739C6 /* Tripod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57B332EF1DBBF65A004739C6 /* Tripod.xcdatamodel */,
+			);
+			currentVersion = 57B332EF1DBBF65A004739C6 /* Tripod.xcdatamodel */;
+			path = Tripod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57B332DC1DBBF65A004739C6 /* Project object */;
+}
